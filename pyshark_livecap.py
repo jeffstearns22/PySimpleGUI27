@@ -2,11 +2,11 @@ import pyshark
 import time
 
 # define interface
-networkInterface = "enp0s3"
+networkInterface = "eth0"
 
 #cap = pyshark.LiveCapture(output_file="pyshark.pcap")
 cap = pyshark.LiveCapture(interface=networkInterface, bpf_filter='tcp port 80')
-for packet in capture.sniff_continuously(packet_count=5):
+for packet in cap.sniff_continuously(packet_count=5):
 	#print(packet)
 	# adjusted output
     try:
