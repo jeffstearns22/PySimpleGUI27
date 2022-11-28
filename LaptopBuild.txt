@@ -1,0 +1,317 @@
+ 485  tar xvf openssl-1.1.1s.tar.gz
+  486  cd openssl-1.1.1s
+  487  ls
+  488  more README
+  489  more INSTALL
+  490  sudo ./config
+  491  yum list installed|grep perl
+  492  yum list installed|more
+  493  pwd
+  494  cd ..
+  495  ls
+  496  tar xvf perl-5.30.3.tar.gz
+  497  cd perl-5.30.3
+  498  ls
+  499  pwd
+  500  ls c*
+  501  ls
+  502  more README
+  503  sudo ./Configure -des -Dprefix=~/localperl
+  504  more README
+  505  sudo make test
+  506  more README
+  507  sudo make install
+  508  cd ..
+  509  ls
+  510  cd openssl-1.1.1s
+  511  ls
+  512  more README
+  513  more INSTALL
+  514  sudo ./config
+  515  sudo make
+  516  more INSTALL
+  517  sudo make test
+  518  sudo make install
+  519  pwd
+  520  cd ,,
+  521  cd ..
+  522  ls
+  523  tar xvf bzip2-latest.tar.gz
+  524  cd bzip2-1.0.8/
+  525  ls
+  526  more README
+  527  sudo make
+  528  more README
+  529  sudo make install
+  530  pwd
+  531  cd ..
+  532  ls
+  533  tar xvf libffi-3.3.tar.gz
+  534  cd libffi-3.3
+  535  ls
+  536  more README.md
+  537  ls
+  538  more README.md
+  539  ls
+  540  sudo ./configure
+  541  sudo make
+  542  sudo make install
+  543  pwd
+  544  cd ..
+  545  ls
+  546  cd Python-3.10.8
+  547  ls
+  548  more README.rst
+  549  yum groupinstall "Development Tools"
+  550  sudo yum groupinstall "Development Tools"
+  551  pwd
+  552  ./configure --enable-optimizations
+  553  sudo make altinstall
+  554  pwd
+  555  python3.10 -V
+  556  python3
+  557  python3.10
+  558  grep tkinter *
+  559  sudo yum install python3-tk
+  560  ls /usr/lib
+  561  cd /usr
+  562  find . -name python3
+  563  pwd
+  564  ls local/bin/python3
+  565  pw
+  566  pwd
+  567  ls /bin
+  568  ls /bin/python
+  569  ls /sbin
+  570  pwd
+  571  alias python
+  572  python3.10
+  573  ls /usr/local/lib/python3.10/site-packages
+  574  ls /usr/local/lib/python3.10/site-packages/_distutils_hack/
+  575  pwd
+  576  pip
+  577  pip3
+  578  sudo pip3 install python3-tk
+  579  pip3 install python3-tk
+  580  sudo yum install python3-tk
+  581  sudo yum install python3-tkinter
+  582  pwd
+  583  ls /usr/include/tcl
+  584  ls /usr/lib
+  585  cd
+  586  cd D
+  587  cd Downloads/
+  588  ls -l
+  589  ls -l A*
+  590  tar xvf ActiveTcl-8.6.12.0000-x86_64-linux-glibc-2.17-6901ec5f.tar.gz
+  591  cd ActiveTcl-8.6.12.0000-x86_64-linux-glibc-2.17-6901ec5f
+  592  ls
+  593  sudo ./install.sh
+  594  PATH="/opt/ActiveTcl-8.6/bin:$PATH"
+  595  printenv PATH
+  596  export PATH
+  597  cd ..
+  598  ls
+  599  cd Python-3.10.8
+  600  ls
+  601  sudo ./configure --with-tcltk-includes='-I/opt/ActiveTcl-8.6/include' --with-tcltk-libs='opt/ActiveTcl-8.6/lib/libtcl8.6.so /opt/ActiveTcl-8.6/lib/libtk8.6.so'
+  602  sudo ./configure --with-tcltk-includes='-I/opt/ActiveTcl-8.6/include' --with-tcltk-libs='opt/ActiveTcl-8.6/lib/libtcl8.6.so /opt/ActiveTcl-8.6/lib/libtk8.6.so' --enable-optimizationsls /opt/ActiveTcl-8.6/include
+  603  sudo make altinstall
+  604  python3.10 -V
+  605  python3.10
+  606  sudo make
+  607  ls /opt/ActiveTcl-8.6/include
+  608  ls /opt/ActiveTcl-8.6/lib
+  609  sudo yum install libx11-dev
+  610  pip3 install libx11-dev
+  611  man locate
+  612  ls /usr
+  613  ls /usr/include
+  614  cd /usr
+  615  ls -l -R|grep x11
+  616  ls -l -R|grep X11
+  617  find . -name Xlib.h
+  618  pwd
+  619  cd /
+  620  find . -name Xlib.h
+  621  cd /opt/ActiveTcl-8.6/include
+  622  ls
+  623  pwd
+  624  ls /usr/include
+  625  printenv PATH
+  626  printenv PATH|grep include
+  627  history
+  628  history|grep PATH
+  629  PATH="/opt/ActiveTcl-8.6/lib:$PATH"
+  630  printenv PATH
+  631  export PATH
+  632  printenv PATH
+  633  pwd
+  634  cd
+  635  cd Downloads/
+  636  ls
+  637  cd Python-3.10.8
+  638  ls
+  639  history
+  640  sudo make
+  641  pwd
+  642  sudo make
+  643  history
+  644  sudo ./configure --with-tcltk-includes='-I/opt/ActiveTcl-8.6/include' --with-tcltk-libs='/opt/ActiveTcl-8.6/lib/libtcl8.6.so /opt/ActiveTcl-8.6/lib/libtk8.6.so' --enable-optimizations
+  645  sudo make
+  646  sudo make altinstall
+  647  python3.10 -V
+  648  python3.10
+  649  pwd
+  650  cd ..
+  651  ls
+  652  git
+  653  git config
+  654  git config --global user.name "jeffstearns22"
+  655  git config --global user.email "jeffstearns22@gmail.com"
+  656  git config --list
+  657  git init
+  658  ls .git
+  659  sl
+  660  ls
+  661  ls -a
+  662  git add README.md
+  663  git commit -m "first commit"
+  664  get remote add origin https://github.com/jeffstearns22/ActiveTcl.git
+  665  git remote add origin https://github.com/jeffstearns22/ActiveTcl.git
+  666  git push ActiveTcl-8.6.12.0000-x86_64-linux-glibc-2.17-6901ec5f.tar.gz
+  667  git add ActiveTcl-8.6.12.0000-x86_64-linux-glibc-2.17-6901ec5f.tar.gz
+  668  git commit
+  669  git push
+  670  git config -l
+  671  git config --global credential.helper cache
+  672  git push
+  673  git config --global push.default simple
+  674  git push
+  675  git config --global push.default matching
+  676  git push
+  677  history
+  678  cd
+  679  cd Pyshark_Livecap/
+  680  python3 pyshark_livecap.py
+  681  python3
+  682  python3 pyshark_livecap.py
+  683  pwd
+  684  cd ..
+  685  ls
+  686  cd Downloads/
+  687  ls
+  688  pip3 install PySimpleGUI27-2.4.1-py3-none-any.whl
+  689  tar xvf PySimpleGUI27-2.4.1.tar.gz
+  690  cd PySimpleGUI27-2.4.1
+  691  python3.6
+  692  python3
+  693  ls
+  694  python3 setup.py install
+  695  sudo python3 setup.py install
+  696  su
+  697  exit
+  698  wireshark
+  699  firefox
+  700  exit
+  701
+  702  \
+  703  python3
+  704  cd
+  705  cd Downloads/
+  706  ls
+  707  cd Python-3.6.8
+  708  ls
+  709  nano config.log
+  710  grep "No such file" config.log
+  711  grep tcl config.log
+  712  sudo make > make.log 2>&1
+  713  grep tkinter make.log
+  714  sudo make altinstall > makealt.log 2>&1
+  715  grep tkinter make.log
+  716  python3
+  717  python3.11
+  718  cd
+  719  cd Downloads/
+  720  ls
+  721  python3.10
+  722  pwd
+  723  cd
+  724  cd Pyshark_Livecap/
+  725  python3
+  726  python3.10
+  727  python3
+  728  pwd
+  729  python3.10
+  730  python3
+  731  pwd
+  732  cd
+  733  cd Downloads/
+  734  ls
+  735  cd setuptools_scm-5.0.2
+  736  ls
+  737  python3.10 setup.py install
+  738  sudo python3.10 setup.py install
+  739  su
+  740  cd
+  741  ls
+  742  cd Pyshark_Livecap/
+  743  ls
+  744  python3 pyshark_livecap.py
+  745  python3.10 pyshark_livecap.py
+  746  python3
+  747  python3.10
+  748  pwd
+  749  cd
+  750  cd Downloads/
+  751  ls
+  752  cd lxml-4.2.5
+  753  ls
+  754  pwd
+  755  cd
+  756  ls
+  757  cd Downloads/
+  758  ls
+  759  pwd
+  760  ls
+  761  cd lxml-4.2.5
+  762  ls
+  763  python3.10 setup.py install
+  764  su
+  765  cd
+  766  ls
+  767  cd Pyshark_Livecap/
+  768  ls
+  769  python3
+  770  python3 pyshark_livecap.py
+  771  python3.10 pyshark_livecap.py
+  772  ls
+  773  python3.6
+  774  cd
+  775  ls
+  776  cd Downloads/
+  777  ls
+  778  pwd
+  779  tshark -D
+  780  wireshark
+  781  cd
+  782  cd Pyshark_Livecap/
+  783  ls
+  784  python3
+  785  python3.10
+  786  python3 pyshark_livecap.py
+  787  python3.10 pyshark_livecap.py
+  788  ls ~/Downloads/
+  789  ls *ssl*
+  790  python3
+  791  jobs
+  792  kill -9 %1
+  793  yum list installed|grep ffi
+  794  yum list installed|grep ssl
+  795  ls /opt
+  796  python3
+  797  cd
+  798  cd Downloads/
+  799  ls
+  800  cd Python-3.6.8
+  
